@@ -7,6 +7,8 @@
       - 19120503 Nguyễn Thanh Hiền
       - 1712342 Nguyễn Văn Diện
       
+      
+- Link video demo: https://www.youtube.com/watch?v=RNkzY6XUF0w
 - Project yêu cầu: Java 17, Spring boot, Docker, MySql Workbench
 - Project này tạo ra để demo mô h MVC, restful và cách sử dụng JDBC trong MYSQL.
 - Project sử dụng các dependency sau:
