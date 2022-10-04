@@ -10,7 +10,7 @@
 - Project yêu cầu: Java 17, Spring boot, Docker, MySql Workbench
 - Project này tạo ra để demo mô h MVC, restful và cách sử dụng JDBC trong MYSQL.
 - Project sử dụng các dependency sau:
-+ spring-web để cấu trúc project theo mô h MVC
++ spring-web để cấu trúc project theo mô hình MVC
 + mysql-connector-java để connect database
 + lombok
 + JPA
