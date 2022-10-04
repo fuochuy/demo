@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>BrightDemy </h1>
+    <h2>Demo MVC, Restful, JDBC kết hợp MySQL</h2>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title text-uppercase mb-0">Thành viên</h4>
+                </div>
+                <div class="table-responsive">
+                    <table class="table no-wrap user-table mb-0">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="border-0 text-uppercase font-medium">MSSV</th>
+                            <th scope="col" class="border-0 text-uppercase font-medium">Họ và Tên</th>
+                            <th scope="col" class="border-0 text-uppercase font-medium">Email</th>
+                            <th scope="col" class="border-0 text-uppercase font-medium">Số điện thoại</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr th:each="user: ${users}">
+                            <td>
+                                <h5 class="font-medium mb-0" th:text="${user.mssv}"></h5>
+                            </td>
+                            <td>
+                                <span class="text-muted" th:text="${user.fullName}"></span><br>
+                            </td>
+                            <td>
+                                <span class="text-muted" th:text="${user.email}"></span><br>
+                            </td>
+                            <td>
+                                <span class="text-muted" th:text="${user.phone}"></span><br>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
