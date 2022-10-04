@@ -1,5 +1,5 @@
 # demo
-                                                      Phát triển ứng dụng HTTT hiện đại
+                                          Phát triển ứng dụng HTTT hiện đại
       Nhóm: BrightDemy
       Thành viên
       - 19120529 Nguyễn Phước Huy
